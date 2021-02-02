@@ -1,5 +1,9 @@
-# JpaExample
+# Jpa Example
 Springboot JPA 예제
+
+- 예제 DDL: mariadb
+  [create_tables.sql](create_tables.sql)
+- 설정 파일: [application.yml](src/main/resources/application.yml)
 
 # ORM?
 - Object-Relational Mapping의 약자
