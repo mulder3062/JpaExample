@@ -1,6 +1,8 @@
 # Jpa Example
 Springboot JPA 예제
 
+JPA를 이용해 사용자와 할 일(Todo) 등록,수정,삭제,조회하는 Rest API 서비스 예제입니다.
+
 - 예제 DDL: mariadb
   [create_tables.sql](create_tables.sql)
 - 설정 파일: [application.yml](src/main/resources/application.yml)
