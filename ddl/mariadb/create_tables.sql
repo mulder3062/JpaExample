@@ -3,7 +3,7 @@ create table todo
     todo_id bigint auto_increment primary key,
     title varchar(255) null,
     user_id varchar(32) null,
-    status int null,
+    status varchar(20) null,
     last_modified_date datetime null,
     created_date datetime null,
     constraint fk_user_todo foreign key (user_id) references user (user_id)

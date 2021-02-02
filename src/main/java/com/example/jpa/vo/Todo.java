@@ -20,7 +20,7 @@ public class Todo {
     @Column(length = 255)
     private String title;
 
-    @Enumerated(EnumType.ORDINAL)
+    @Enumerated(EnumType.STRING)
     private TodoStatus status = TodoStatus.PROGRESS;
 
     @ManyToOne(targetEntity = User.class, fetch = FetchType.EAGER)
