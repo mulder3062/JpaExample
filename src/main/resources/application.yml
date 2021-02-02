@@ -1,0 +1,17 @@
+# Datasource Environments
+spring.datasource:
+  driverClassName: org.mariadb.jdbc.Driver
+  url: jdbc:mariadb://localhost:13306/todo
+  username: dev
+  password: dev@example.com
+
+# JPA Environments
+spring.jpa:
+  properties.hibernate:
+    dialect: org.hibernate.dialect.MariaDBDialect
+    show_sql: true
+    format_sql: true
+    use_sql_comments: true
+    # ddl-auto: update
+
+
