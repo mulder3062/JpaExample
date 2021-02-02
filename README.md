@@ -6,9 +6,9 @@ Springboot JPA 예제
 - 설정 파일: [application.yml](src/main/resources/application.yml)
 
 # ORM?
-- Object-Relational Mapping의 약자
+- Object-Relational Mapping. 즉 객체 관계 매핑을 의미
 - 객체와 테이블을 매핑시켜 쿼리를 작성하지 않고도 직관적으로 CRUD 작업을 할 수 있도록 해준다.
-  Mybatis의 경우 DTO를 작성하고 쿼리에서는 DTO를 지정해야 한다.
+  Mybatis의 경우 DTO 클래스를 작성, CRUD에 따른 쿼리 생성이 필요하나 JPA는 대부분을 자동으로 처리해준다.
   
 ## 장점
 - 재사용성이 증가한다.
